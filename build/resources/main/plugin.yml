@@ -1,0 +1,17 @@
+name: market
+version: '${version}'
+main: me.guystudio.market.Market
+api-version: '1.20'
+load: POSTWORLD
+
+commands:
+  market:
+    description: Mở giao diện chợ chung
+    usage: /market
+    aliases:
+      - cho
+      - chochung
+  msell:
+    description: Ban do tren cho
+
+depend: [Vault]

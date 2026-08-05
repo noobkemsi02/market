@@ -1,0 +1,23 @@
+settings:
+  # Số lượng mặt hàng tối đa người chơi có thể bán cùng lúc
+  max_listings_per_player: 5
+
+gui:
+  main_market:
+    title: "&8Khu Chợ Chung"
+    size: 54
+  create_listing:
+    title: "&8Đặt Đơn Hàng"
+    size: 9 # Dùng 1 hàng 9 ô cho gọn
+  quantity_setup:
+    title: "&8Chỉnh Số Lượng"
+    size: 27
+  manage_chest:
+    title: "&8Quản Lý Mặt Hàng Của Bạn"
+    size: 54
+
+messages:
+  prefix: "&7[&6Market&7] &f"
+  limit_reached: "&cBạn đã đạt giới hạn %limit% mặt hàng đăng bán!"
+  not_enough_items: "&cBạn không có đủ số lượng vật phẩm này trong kho."
+  listing_success: "&aĐã đăng bán %amount%x %item% với giá %price%."
